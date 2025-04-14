@@ -50,10 +50,10 @@ function App() {
         <h1 className="main-header">
           Meet Your Personal
           <br />
-          <span className="highlight">Recipe AI</span>
+          <span className="highlight">AI Recipe Generator</span>
         </h1>
         <p className="description">
-          Simply type a few ingredients, and Recipe AI will generate an all-new recipe on demand.
+          Type a few ingredients, and AI Recipe Generator will generate an all-new recipe.
         </p>
       </div>
       <form onSubmit={onSubmit} className="form-container">

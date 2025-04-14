@@ -53,9 +53,7 @@ function App() {
           <span className="highlight">Recipe AI</span>
         </h1>
         <p className="description">
-          Simply type a few ingredients using the format ingredient1,
-          ingredient2, etc., and Recipe AI will generate an all-new recipe on
-          demand...
+          Simply type a few ingredients, and Recipe AI will generate an all-new recipe on demand.
         </p>
       </div>
       <form onSubmit={onSubmit} className="form-container">
@@ -65,10 +63,10 @@ function App() {
             className="wide-input"
             id="ingredients"
             name="ingredients"
-            placeholder="Ingredient1, Ingredient2, Ingredient3,...etc"
+            placeholder="Ingredient 1, Ingredient 2, Ingredient 3, ..."
           />
           <button type="submit" className="search-button">
-            Generate
+            Generate Recipe
           </button>
         </div>
       </form>
